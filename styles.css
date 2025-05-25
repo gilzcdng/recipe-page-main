@@ -1,0 +1,39 @@
+body   {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(30, 54%, 90%);
+}
+
+.line   {
+     border-bottom: 1px solid #888;
+}
+
+
+.omelette   {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+
+
+
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #f0f0f0;
+    background-color: #ffffff;
+
+    border-radius: 8px;
+}
