@@ -15,8 +15,8 @@ body   {
 
 
 .omelette   {
-    width: 90%;
-    max-width: 800px;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -35,5 +35,25 @@ body   {
     border: 1px solid #f0f0f0;
     background-color: #ffffff;
 
-    border-radius: 8px;
+    border-radius: 15px;
+}
+
+.prep-time-list {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+
+}
+
+.prep-time-container {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+
+    justify-content: left;
+    align-items: left;
+}
+
+.prep-time {
+    color: hsl(332, 51%, 32%)
 }
