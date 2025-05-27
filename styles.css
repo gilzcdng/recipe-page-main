@@ -1,12 +1,50 @@
 body   {
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    font-family: Outfit, sans-serif;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+
+    font-size: 1rem;
+
+}
+
+.Title   {
+    font-family: Young Serif, serif;
+    font-size: 2.5rem;
+    color: black
+} 
+
+.ingredients {
+    font-family: Young Serif, serif;
+    color: hsl(24, 5%, 18%);
+}
+
+.instructions {
+    font-family: Young Serif, serif;
+    color: hsl(24, 5%, 18%);
+}
+
+.nutrition {
+    font-family: Young Serif, serif;
+    color: hsl(24, 5%, 18%);
+}
+
+.instructions-list   {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.ingredients-list   {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .line   {
@@ -55,5 +93,19 @@ body   {
 }
 
 .prep-time {
-    color: hsl(332, 51%, 32%)
+    color: hsl(332, 51%, 32%);
+    padding-left: 20px;
+}
+
+.cals {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+
+}
+
+.cal-numbers {
+    padding-right: 100px;
+    color: hsl(24, 5%, 18%);
 }
